@@ -55,6 +55,12 @@ blockquote {
   margin-bottom: 1.5rem;
 }
 
+blockquote {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-left: 0.25rem solid color('light-accent');
+  padding-left: 1rem;
+}
 
 
 // Sanitation
@@ -73,6 +79,10 @@ em,
 small,
 code {
   line-height: 1;
+}
+
+b, strong {
+  font-weight: bold;
 }
 
 sup,
